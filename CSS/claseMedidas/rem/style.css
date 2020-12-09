@@ -1,0 +1,25 @@
+/*REM siempre tendra referencia a un root, es decir siempre rem va a tener 16px, rem tiene corelacción con la etiqueta de html*/
+
+
+/*SIEMPRE resetea con el selector universal y el html en 62.5%*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*con esto html, la fuente mide 10px y ahora 1 rem es igual a 10px*/
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
+}

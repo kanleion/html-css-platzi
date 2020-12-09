@@ -1,0 +1,9 @@
+/*Em toma el tamaño de fuente que tenga directo, en este caso html tiene 16 px así que 1em son 16 px en este caso*/
+
+.text-container {
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
