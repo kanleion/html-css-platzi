@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+/*El padre afecta al hijo con esta propiedad, flex direction, flex wrap, 
+justify content nos ayuda a alinear el contenido, no solo podemos centrar las cosas, sino tambien podemos colocarlos a la derecha y a la izquierda
+
+space arround agrega un espacio solo que no es el mismo espacio entre los contenedores y los extremos, para tener el mismo espacio usamos space-evenly*/
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    /*vh nos dice que el container va aestar al 50% de la altura de la página
+    height: 50vh;
+    */
+    flex-wrap: wrap;
+    /*baseline coloca la altura del texto que tiene este box, en cambio strech le coloca la altura del padre
+    align-items: baseline;
+    */
+}
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+
+/*Si no le pongo orden al contenedor, los coloca a la izquierda*/
+
+
+/*Flex-grow ayuda a que tomen la posición que esta sobrando*/
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: blueviolet;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: crimson;
+}
+
+.box5 {
+    background-color: darkgoldenrod;
+}
+
+.box6 {
+    background-color: darksalmon;
+}
