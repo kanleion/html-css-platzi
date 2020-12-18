@@ -1,0 +1,22 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1 {
+    width: 60vw;
+}
+
+.c2 {
+    width: 40vw;
+}
+
+.c3,
+.c4 {
+    width: 33vw;
+}
+
+.c5 {
+    width: 34vw;
+}
