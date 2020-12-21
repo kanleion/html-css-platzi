@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: seagreen;
+}
+
+
+/*position absolute la caja pierde su posicioón en cambio relative mantiene la posicioón*/
+
+html {
+    font-size: 62.5%;
+}
+
+.container-section__one {
+    background-color: red;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.container-section__title {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.container-section__two {
+    background-color: lightgray;
+    width: 600px;
+    padding: 60px 40px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.container-section__p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}

@@ -1,0 +1,30 @@
+/* toda etiqueta de párrafo que este cerca de h2 agregale el color rojo - combinador hermano cercano
+
+h2+p {
+    color: red;
+}
+*/
+
+
+/*Va a plicar el estilo siempre y cuando existan en la misma lína como hermano - denominado hermanos generales
+
+h2~p {
+    color: red;
+}
+*/
+
+
+/*Combinador child - hijo de la etiqueta div - hijo directo
+
+div>p {
+    color: red;
+}
+
+*/
+
+
+/*decendiente - es el más habítual*/
+
+div p {
+    color: red;
+}

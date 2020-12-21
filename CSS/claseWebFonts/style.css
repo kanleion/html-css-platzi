@@ -1,0 +1,5 @@
+/*Los import son mala práctica por ele efecto que tiene en el perfomance del css, lo mejor es colocarlo en el html*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+}

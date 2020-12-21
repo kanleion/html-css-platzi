@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box sizing es para no tener problemas con el modelo de caja*/
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: serif;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: white;
+    background-color: turquoise;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog {
+    background-color: red;
+}
